@@ -3,39 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dino & Fossil Discovery</title>
+  <title>Login - Dino Discovery</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/mobile.css">
 </head>
 <body>
-  <audio autoplay loop>
-    <source src="assets/audio/nature.mp3" type="audio/mpeg">
-  </audio>
-
-  <header>
-    <nav>
-      <h1>Dino & Fossil Discovery</h1>
-      <div>
-        <a href="login.html">Login</a>
+  <main class="auth">
+    <form action="login.html" method="get">
+      <h1>Welcome Explorer</h1>
+      <input type="text" placeholder="First Name" required>
+      <input type="text" placeholder="Last Name" required>
+      <input type="email" placeholder="Email" required>
+      <div class="gender">
+        <label><input type="radio" name="gender"> Male</label>
+        <label><input type="radio" name="gender"> Female</label>
+        <label><input type="radio" name="gender"> Other</label>
       </div>
-    </nav>
-  </header>
-
-  <main>
-    <section>
-      <h2>Explore the Eras of Giants</h2>
-      <div class="grid">
-        <a href="landdino.html">Land Dinosaurs</a>
-        <a href="flyingdino.html">Flying Reptiles</a>
-        <a href="waterdino.html">Water Reptiles</a>
-        <a href="airdino.html">Avian Dinosaurs</a>
-        <a href="fossils.html">Fossil Fuels</a>
-      </div>
-    </section>
+      <button type="submit">Login</button>
+    </form>
   </main>
-
-  <footer>
-    <p>Created by Khushagra Rawal | Nature vibes only 🌿</p>
-  </footer>
 </body>
 </html>

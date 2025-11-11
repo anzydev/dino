@@ -1,5 +1,5 @@
 html{
-scroll-behavior: smooth;
+ scroll-behavior: smooth;
 }
 
 *{
@@ -9,19 +9,19 @@ scroll-behavior: smooth;
 }
 
 body {
- background-color: #2e2b25;
- color: burlywood;
+ background-color: #182818;
+ color: #dfe6d1;
  font-family: "Fira Sans", sans-serif;
  line-height: 1.6;
- background-image: url('../assets/images/bg-texture.jpg');
+ background-image: url('../assets/images/forest-texture.jpg');
  background-attachment: fixed;
  background-size: cover;
  padding-top: 60px;
 }
 
 ::selection{
- background-color: #557a46;
- color:white;
+ background-color: #4d6d3c;
+ color: #f3f6f0;
 }
 
 nav{
@@ -29,31 +29,31 @@ nav{
  top:0;
  left:0;
  right:0;
- background-color: rgba(40, 38, 32, 0.92);
+ background-color: rgba(20, 40, 20, 0.95);
  display:flex;
  justify-content: space-between;
  align-items:center;
  padding: 10px 25px;
- border-bottom: 1px solid #c4a484;
+ border-bottom: 1px solid #5b7d54;
  z-index:100;
 }
 
 nav h1{
- color:goldenrod;
+ color:#a6d39c;
  font-size:1.6rem;
  letter-spacing: 1px;
- text-shadow:0 0 5px #1e1e1e;
+ text-shadow:0 0 5px #101810;
 }
 
 nav a{
- color: burlywood;
+ color:#dfe6d1;
  margin-left:15px;
  text-decoration:none;
  transition:0.3s;
 }
 
 nav a:hover{
- color:gold;
+ color:#97d98a;
  text-decoration:underline;
  cursor:pointer;
 }
@@ -68,16 +68,16 @@ nav a:hover{
 }
 
 .grid a{
- background-color: rgba(50, 50, 50, 0.8);
+ background-color: rgba(38, 55, 38, 0.8);
  padding: 20px;
  border-radius: 10px;
- color:burlywood;
- border:1px solid #5a4d2f;
+ color:#dfe6d1;
+ border:1px solid #4a6a45;
  transition: 0.3s;
 }
 
 .grid a:hover{
- background-color:#4f4a36;
+ background-color:#3b5938;
  transform: scale(1.05);
 }
 
@@ -85,7 +85,7 @@ main img{
  display:block;
  margin: 20px auto;
  border-radius:10px;
- border:2px solid #a3833b;
+ border:2px solid #678a5f;
 }
 
 main p{
@@ -93,19 +93,19 @@ main p{
  text-align:center;
  margin: 10px auto;
  padding:15px;
- color:#e3cda4;
+ color:#e8f1e1;
 }
 
 main a{
  display:block;
  text-align:center;
  margin-top:10px;
- color:#e0c27b;
+ color:#a4d98e;
  text-decoration: underline;
 }
 
 main a:hover{
- color:white;
+ color:#f3f8ef;
 }
 
 .auth{
@@ -116,15 +116,15 @@ main a:hover{
 }
 
 form{
- background-color: rgba(25,25,25,0.93);
+ background-color: rgba(25,35,25,0.93);
  padding:30px;
  border-radius:10px;
  width:340px;
- box-shadow:0 0 10px rgba(50,50,50,0.4);
+ box-shadow:0 0 12px rgba(10,30,10,0.5);
 }
 
 form h1{
- color:gold;
+ color:#a2d485;
  margin-bottom:20px;
  text-align:center;
 }
@@ -138,32 +138,33 @@ input,button{
 }
 
 input{
- background-color:#3c3a36;
- color:white;
+ background-color:#2f4530;
+ color:#eef4ea;
 }
 
 input:focus{
- outline:1px solid goldenrod;
+ outline:1px solid #7bc46a;
+ background-color:#345634;
 }
 
 button{
- background-color: goldenrod;
- color:black;
+ background-color:#609a52;
+ color:#f2f8f0;
  font-weight:600;
  cursor:pointer;
  transition:0.3s;
 }
 
 button:hover{
- background-color: gold;
+ background-color:#73b264;
 }
 
 footer{
  text-align:center;
  padding:20px;
- color:#cbb67e;
- background-color: rgba(30,28,25,0.9);
- border-top: 1px solid #c4a484;
+ color:#c6dbc2;
+ background-color: rgba(20,30,20,0.9);
+ border-top: 1px solid #4f7247;
  margin-top:40px;
  font-size:14px;
 }

@@ -9,18 +9,21 @@ html {
 }
 
 body {
+  background-image: url('https://t4.ftcdn.net/jpg/01/44/93/13/360_F_144931353_BpGfKfxvcYO6aX9QKEVJZTdpgVTtDqdF.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-color: #182818;
   color: #dfe6d1;
   font-family: "Fira Sans", sans-serif;
   line-height: 1.6;
-  background-image: url('../assets/images/forest-texture.jpg');
-  background-size: cover;
-  background-attachment: fixed;
   padding-top: 60px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
+
 
 @keyframes fadeInBody {
   from { opacity: 0; }
